@@ -53,7 +53,7 @@ public class Sibling {
 			o += " sibling";
 		String y = Random_Name.firstName(nrace, gender)+" is a " + gender + race
 				+ " "+Background.background()+" that is your " + o +".";
-		y += "\r\n\tClass: " + Supplemental.rclass();
+		y += "\r\n\tJob: " + Supplemental.occupation();
 		y += "\r\n\tAlignment: " + Supplemental.alignment();
 		y += "\r\n\tRelationship: " + Supplemental.relationship();
 		y += "\r\n\tStatus: " + Supplemental.status();

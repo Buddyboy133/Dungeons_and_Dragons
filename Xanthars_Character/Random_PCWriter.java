@@ -20,6 +20,7 @@ public class Random_PCWriter {
 		
 		String race = Supplemental.race();
 		int age = Supplemental.age(race);
+		String alignment = Supplemental.alignment();
 		int numsiblings = (Sibling.numsiblings(race));
 		String gender = Supplemental.gender();
 		String rclass = Supplemental.rclass();
@@ -39,6 +40,7 @@ public class Random_PCWriter {
 		
 		writer.println("Your Name is "+name);
 		writer.println("You are a "+age+" year old " +gender +subrace + " "+rclass);
+		writer.println("You are "+alignment);
 		writer.println("You are also a(n) " +background + Background.reason(background));
 		writer.println(stats());
 		writer.println();

@@ -4,7 +4,7 @@ public class Apperance {
 	public static String apperance()
 	{
 		int x = Roll.roll(20, 1);
-		String y = "Apperance: ";
+		String y = "Appearance: ";
 		if(x == 1)
 			y += "Distinctive jewelry: earrings, necklace, circlet, bracelets";
 		else if(x == 2)

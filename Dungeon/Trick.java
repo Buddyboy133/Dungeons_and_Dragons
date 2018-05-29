@@ -168,7 +168,7 @@ public class Trick {
 				r = "Summons";
 			else 
 				r = "Turns into";
-			y = r + " a montser";
+			y = r + " a monster";
 		}
 		else if(x <= 87)
 			y = "Casts suggestion on the characters";

@@ -21,9 +21,11 @@ public class Obstical {
 		else if(x <= 14)
 			y = "Flooding leaves 2d10 ft. of water in the area; create nearby upward-sloping passages, raised floors, or rising stairs to contain the water";
 		else if(x <= 15)
+		{
 			y = "Lava flows through the area";
 			if(z<=50)
 				y += " with a stone bridge";
+		}
 		else if(x <= 16)
 			y = "Overgrown mushrooms block progress and must be hacked down";
 			if(z<= 25)

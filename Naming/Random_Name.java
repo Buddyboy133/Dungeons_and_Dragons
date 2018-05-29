@@ -4,12 +4,17 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Random_Name {
 
 	public static void main(String[] args) 
 	{
-		String name = naming("Dragonborn","Male");
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a race and gender");
+		String race = input.next();
+		String gender = input.next();
+		String name = naming(race,gender);
 		System.out.println(name);
 	}
 	public static String naming(String race, String gender)
